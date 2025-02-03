@@ -2,6 +2,9 @@
 
 ProxMonitor 是一个用于监控和管理 Proxmox VE 服务器的 Android 应用。它提供了直观的界面来查看和控制您的虚拟化环境。
 
+[![Latest release](https://img.shields.io/github/v/release/Fanju6/ProxMonitor?label=Release&logo=github)](https://github.com/Fanju6/ProxMonitor/releases/latest)
+[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/ProxMonitor)
+
 <div style="display: flex; justify-content: space-around;">
   <img src="/Screenshots/Screenshot1.png" width="30%" />
   <img src="/Screenshots/Screenshot2.png" width="30%" />
@@ -33,7 +36,7 @@ ProxMonitor 是一个用于监控和管理 Proxmox VE 服务器的 Android 应�
 
 ## 系统要求
 
-- Android 6.0 (API 24) 或更高版本
+- Android 8.0 (API 26) 或更高版本
 - Proxmox VE 7.0 或更高版本
 - 网络连接到 Proxmox VE 服务器
 
