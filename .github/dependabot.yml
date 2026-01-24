@@ -1,0 +1,20 @@
+# Dependabot 配置文件
+# 用于自动检查和更新依赖
+
+version: 2
+updates:
+  # 维护 npm 包依赖（website 目录）
+  - package-ecosystem: "npm"
+    directory: "/website"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore(deps)"
+
+  # 维护 GitHub Actions 依赖
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore(deps)"
