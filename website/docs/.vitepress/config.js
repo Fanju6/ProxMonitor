@@ -1,5 +1,5 @@
 export default {
-  base: "/ProxMonitorDocs/",
+  base: "/ProxMonitor/",
   title: 'ProxMonitor',
   description: 'Proxmox VE 服务器监控和管理的 Android 应用',
   themeConfig: {
