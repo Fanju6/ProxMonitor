@@ -51,7 +51,7 @@ jobs:
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
         working-directory: website
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: website/docs/.vitepress/dist
 
